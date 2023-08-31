@@ -102,9 +102,11 @@ export class AggregatorTrade implements SymbiosisTrade {
             }
         }
 
+        /* 
         if (!bestTrade) {
             throw new Error('No aggregators available for this trade')
         }
+        */
 
         this.trade = bestTrade
 
